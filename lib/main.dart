@@ -18,7 +18,8 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  static const eventChannel = EventChannel('com.ofthewolf.aubiotuner/pitch_event');
+  static const eventChannel =
+      EventChannel('com.ofthewolf.aubiotuner/pitch_event');
   static const pitchMethodChannel =
       MethodChannel('com.ofthewolf.aubiotuner/pitch_method');
 
@@ -51,7 +52,7 @@ class _MyAppState extends State<MyApp> {
 
   Future<bool> _checkPermissions() async {
     //permission_handler lib only supports android and ios
-    if (Platform.isAndroid || Platform.isIOS){
+    if (Platform.isAndroid || Platform.isIOS) {
       final status = await Permission.microphone.status;
       switch (status) {
         case PermissionStatus.granted:
@@ -65,11 +66,10 @@ class _MyAppState extends State<MyApp> {
         default:
           return false;
       }
-    }else{
+    } else {
       // handle persmissions on other platforms
       return true;
     }
-
   }
 
   void _configureEventChannel() {
@@ -90,62 +90,87 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Welcome to Flutter',
+        title: 'Aubio Tuner',
         home: Scaffold(
           appBar: AppBar(
-            title: const Text('Welcome to Flutter'),
+            title: const Text('Aubio Tuner'),
           ),
           body: Column(
             children: [
               Padding(padding: const EdgeInsets.all(20.0)),
-              Wrap(children: [SfRadialGauge(axes: <RadialAxis>[
-                RadialAxis(
-                    startAngle: 180 - 45,
-                    endAngle: 45,
-                    minimum: -50,
-                    maximum: 50,
-                    ranges: <GaugeRange>[
-                      GaugeRange(
-                          startValue: -10,
-                          endValue: 10,
-                          color: Colors.greenAccent,
-                          startWidth: 10,
-                          endWidth: 10),
-                    ],
-                    pointers: <GaugePointer>[
-                      NeedlePointer(
-                        enableAnimation: true,
-                          animationType: AnimationType.ease,
-                          value: _angle,
-                          gradient: LinearGradient(colors: <Color>[
-                            Color(0xFFFF6B78),
-                            Color(0xFFFF6B78),
-                            Color(0xFFE20A22),
-                            Color(0xFFE20A22)
-                          ], stops: <double>[
-                            0,
-                            0.5,
-                            0.5,
-                            1
-                          ]),
-                          needleColor: Color(0xFFF67280),
-                          knobStyle: KnobStyle(
-                              knobRadius: 0.09,
-                              sizeUnit: GaugeSizeUnit.factor,
-                              color: Colors.black)),
-                    ],
-                    annotations: <GaugeAnnotation>[
-                      GaugeAnnotation(
-                          widget: Container(
-                              child: Text('${_pitch}',
-                                  style: TextStyle(
-                                      fontSize: 25,
-                                      fontWeight: FontWeight.bold))),
-                          angle: 90,
-                          positionFactor: 0.5)
-                    ])
-              ])],
-            )],
+              Wrap(
+                children: [
+                  SfRadialGauge(axes: <RadialAxis>[
+                    RadialAxis(
+                        startAngle: 180 - 45,
+                        endAngle: 45,
+                        minimum: -50,
+                        maximum: 50,
+                        ranges: <GaugeRange>[
+                          GaugeRange(
+                              startValue: -10,
+                              endValue: 10,
+                              color: Colors.greenAccent,
+                              startWidth: 10,
+                              endWidth: 10),
+                        ],
+                        pointers: <GaugePointer>[
+                          NeedlePointer(
+                              enableAnimation: true,
+                              animationType: AnimationType.ease,
+                              value: _angle,
+                              gradient: LinearGradient(colors: <Color>[
+                                Color(0xFFFF6B78),
+                                Color(0xFFFF6B78),
+                                Color(0xFFE20A22),
+                                Color(0xFFE20A22)
+                              ], stops: <double>[
+                                0,
+                                0.5,
+                                0.5,
+                                1
+                              ]),
+                              needleColor: Color(0xFFF67280),
+                              knobStyle: KnobStyle(
+                                  knobRadius: 0.09,
+                                  sizeUnit: GaugeSizeUnit.factor,
+                                  color: Colors.black)),
+                        ],
+                        annotations: <GaugeAnnotation>[
+                          GaugeAnnotation(
+                              widget: Container(
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [Text('${_pitch}',
+                                        style: TextStyle(
+                                            fontSize: 25,
+                                            fontWeight: FontWeight.bold)),
+                                      Text('Hz',
+                                          style: TextStyle(
+                                              fontSize: 20,
+                                              fontStyle: FontStyle.italic))],
+                                  )),
+                              angle: 90,
+                              positionFactor: 0.5)
+                        ])
+                  ])
+                ],
+              ),
+              Spacer(),
+              SafeArea(
+                  child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Platform ",
+                      style:
+                          TextStyle(fontSize: 14, fontStyle: FontStyle.italic)),
+                  Text(Platform.operatingSystem,
+                      style:
+                          TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                  Padding(padding: const EdgeInsets.all(20.0)),
+                ],
+              ))
+            ],
           ),
         ));
   }
@@ -162,7 +187,7 @@ extension Pitch on double {
   double angle() {
     double cent = toCent();
     print(cent);
-    if (cent > 50){
+    if (cent > 50) {
       return cent - 100;
     }
     return cent;
