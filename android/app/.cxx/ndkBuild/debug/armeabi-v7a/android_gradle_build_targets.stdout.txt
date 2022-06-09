@@ -1,0 +1,5 @@
+[armeabi-v7a] Compile thumb  : aubio <= aubio_jni_bindings.c
+[armeabi-v7a] Compile thumb  : aubio <= aubiopitch.c
+[armeabi-v7a] SharedLibrary  : libaubio.so
+[armeabi-v7a] Compile thumb  : aubiopitch <= aubiopitch.c
+[armeabi-v7a] SharedLibrary  : libaubiopitch.so

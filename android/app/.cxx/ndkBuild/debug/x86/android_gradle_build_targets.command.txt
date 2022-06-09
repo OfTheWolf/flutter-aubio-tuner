@@ -1,0 +1,14 @@
+Executable : /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=1
+APP_PLATFORM=android-24
+NDK_OUT=/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/lib
+aubio
+aubiopitch
+jvmArgs : 
+

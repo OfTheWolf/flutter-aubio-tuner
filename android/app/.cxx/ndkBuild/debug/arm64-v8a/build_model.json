@@ -1,0 +1,132 @@
+{
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cxxBuildFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/app/.cxx/ndkBuild/debug/arm64-v8a",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/app/.cxx/ndkBuild/debug/arm64-v8a",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "NDK_BUILD",
+      "cmakeToolchainFile": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/build/cmake/android.toolchain.cmake",
+      "cxxFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/app/.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates",
+      "makeFile": "/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk",
+      "moduleBuildFile": "/Users/ugur/StudioProjects/aubio-tuner/android/app/build.gradle",
+      "moduleRootFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 19,
+        "max": 32,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "SYSTEM",
+      "ndkVersion": "24.0.8215888",
+      "project": {
+        "compilerSettingsCacheFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/.cxx",
+        "cxxFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "/Users/ugur/StudioProjects/aubio-tuner/android",
+        "sdkFolder": "/Users/ugur/Library/Android/sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj/local",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "prefabDirectory": "/Users/ugur/StudioProjects/aubio-tuner/android/app/.cxx/ndkBuild/debug/prefab",
+    "prefabPackageDirectoryList": []
+  },
+  "prefabFolder": "/Users/ugur/StudioProjects/aubio-tuner/android/app/.cxx/ndkBuild/debug/prefab/arm64-v8a"
+}

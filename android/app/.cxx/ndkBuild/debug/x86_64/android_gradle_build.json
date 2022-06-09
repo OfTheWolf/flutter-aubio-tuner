@@ -1,0 +1,602 @@
+{
+  "buildFiles": [
+    "/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "aubio-debug-x86_64": {
+      "buildCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/lib /Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj/local/x86_64/libaubio.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "aubio",
+      "files": [
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/aubio_jni_bindings.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/aubiopitch.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/cvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/pitchshift_dummy.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/pitchshift_rubberband.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/rubberband_utils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/timestretch_dummy.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/timestretch_rubberband.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/fmat.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/fvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/audio_unit.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/ioutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_flac.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_sndfile.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_vorbis.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_wavwrite.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_avcodec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_sndfile.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_wavread.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/utils_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/lvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/mathutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/musicutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/notes/notes.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/onset/onset.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/onset/peakpicker.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitch.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchfcomb.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchmcomb.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchschmitt.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchspecacf.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyin.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyinfast.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyinfft.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/awhitening.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_accelerate.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_fftw.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_ipp.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_ooura.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_plain.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/fft.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/filterbank.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/filterbank_mel.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/mfcc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/ooura_fft8g.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/phasevoc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/specdesc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/statistics.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/tss.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/synth/sampler.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/synth/wavetable.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/tempo/beattracking.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/tempo/tempo.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/a_weighting.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/biquad.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/c_weighting.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/filter.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/resampler.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/hist.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/log.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/parameter.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/scale.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/strutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/windll.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/vecutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj/local/x86_64/libaubio.so"
+    },
+    "aubiopitch-debug-x86_64": {
+      "buildCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/lib /Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj/local/x86_64/libaubiopitch.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "aubiopitch",
+      "files": [
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/aubio_jni_bindings.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/aubiopitch.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/aubiopitch.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/cvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/pitchshift_dummy.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/pitchshift_rubberband.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/rubberband_utils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/timestretch_dummy.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/effects/timestretch_rubberband.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/fmat.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/fvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/audio_unit.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/ioutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_flac.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_sndfile.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_vorbis.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/sink_wavwrite.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_avcodec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_sndfile.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/source_wavread.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/io/utils_apple_audio.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/lvec.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/mathutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/musicutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/notes/notes.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/onset/onset.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/onset/peakpicker.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitch.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchfcomb.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchmcomb.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchschmitt.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchspecacf.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyin.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyinfast.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/pitch/pitchyinfft.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/awhitening.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_accelerate.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_fftw.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_ipp.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_ooura.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/dct_plain.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/fft.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/filterbank.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/filterbank_mel.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/mfcc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/ooura_fft8g.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/phasevoc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/specdesc.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/statistics.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/spectral/tss.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/synth/sampler.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/synth/wavetable.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/tempo/beattracking.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/tempo/tempo.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/a_weighting.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/biquad.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/c_weighting.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/filter.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/temporal/resampler.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/hist.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/log.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/parameter.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/scale.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/strutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/utils/windll.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/Users/ugur/StudioProjects/aubio-tuner/android/app/libaubio/include/vecutils.c",
+          "flags": "-target x86_64-none-linux-android24 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -Ilibaubio/include/ -Ilibaubio -DANDROID -DHAVE_CONFIG_H -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/debug/obj/local/x86_64/libaubiopitch.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

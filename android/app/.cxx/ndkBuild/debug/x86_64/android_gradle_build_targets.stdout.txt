@@ -1,0 +1,5 @@
+[x86_64] Compile        : aubio <= aubio_jni_bindings.c
+[x86_64] Compile        : aubio <= aubiopitch.c
+[x86_64] SharedLibrary  : libaubio.so
+[x86_64] Compile        : aubiopitch <= aubiopitch.c
+[x86_64] SharedLibrary  : libaubiopitch.so

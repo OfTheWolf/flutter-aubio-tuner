@@ -1,0 +1,5 @@
+[arm64-v8a] Compile        : aubio <= aubio_jni_bindings.c
+[arm64-v8a] Compile        : aubio <= aubiopitch.c
+[arm64-v8a] SharedLibrary  : libaubio.so
+[arm64-v8a] Compile        : aubiopitch <= aubiopitch.c
+[arm64-v8a] SharedLibrary  : libaubiopitch.so

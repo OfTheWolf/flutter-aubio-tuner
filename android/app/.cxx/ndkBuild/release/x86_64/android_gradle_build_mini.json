@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "aubio-release-x86_64": {
+      "artifactName": "aubio",
+      "buildCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/lib /Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj/local/x86_64/libaubio.so",
+      "abi": "x86_64",
+      "output": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj/local/x86_64/libaubio.so",
+      "runtimeFiles": []
+    },
+    "aubiopitch-release-x86_64": {
+      "artifactName": "aubiopitch",
+      "buildCommand": "/Users/ugur/Library/Android/sdk/ndk/24.0.8215888/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/ugur/StudioProjects/aubio-tuner/android/app/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-24 NDK_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/lib /Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj/local/x86_64/libaubiopitch.so",
+      "abi": "x86_64",
+      "output": "/Users/ugur/StudioProjects/aubio-tuner/build/app/intermediates/ndkBuild/release/obj/local/x86_64/libaubiopitch.so",
+      "runtimeFiles": []
+    }
+  }
+}
