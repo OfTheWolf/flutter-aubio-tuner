@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
+import 'dart:io' show Platform;
 
 void main() {
   runApp(const MyApp());
@@ -49,19 +50,26 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<bool> _checkPermissions() async {
-    final status = await Permission.microphone.status;
-    switch (status) {
-      case PermissionStatus.granted:
-        return true;
-      case PermissionStatus.denied:
-        return await Permission.microphone.request() ==
-            PermissionStatus.granted;
-      case PermissionStatus.permanentlyDenied:
-        openAppSettings();
-        return false;
-      default:
-        return false;
+    //permission_handler lib only supports android and ios
+    if (Platform.isAndroid || Platform.isIOS){
+      final status = await Permission.microphone.status;
+      switch (status) {
+        case PermissionStatus.granted:
+          return true;
+        case PermissionStatus.denied:
+          return await Permission.microphone.request() ==
+              PermissionStatus.granted;
+        case PermissionStatus.permanentlyDenied:
+          openAppSettings();
+          return false;
+        default:
+          return false;
+      }
+    }else{
+      // handle persmissions on other platforms
+      return true;
     }
+
   }
 
   void _configureEventChannel() {
